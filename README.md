@@ -1,5 +1,5 @@
 # SustainaLand-Hub
-roject Background: The Land Resources Website project comes in response to a growing global concern: the unsustainable exploitation of land resources. As the world's population continues to expand, the demand for agricultural land, urban development, and industrialization has put immense pressure on our natural landscapes. The consequences of this unchecked land use are far-reaching, from deforestation and loss of biodiversity to soil degradation and increased greenhouse gas emissions.
+Project Background: The Land Resources Website project comes in response to a growing global concern: the unsustainable exploitation of land resources. As the world's population continues to expand, the demand for agricultural land, urban development, and industrialization has put immense pressure on our natural landscapes. The consequences of this unchecked land use are far-reaching, from deforestation and loss of biodiversity to soil degradation and increased greenhouse gas emissions.
 
 Project Objectives:
 
