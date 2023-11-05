@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(244, 244, 244);
+    font-family: serif;
+    margin:0;
+    padding:0;
+}
+.image{
+    background-image: url("megan-thomas-xMh_ww8HN_Q-unsplash.jpg");
+    background-color: center;
+    background-position:center;
+    position: relative;
+    min-height: 600px;
+}
+.container1{
+    position: absolute;
+    margin: 30px;
+    width: 95%;
+    height:600px;
+}
+.top-nav{
+    overflow: hidden;
+    background-color: transparent;
+    font-weight: bold;
+}
+.top-nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: rgba(242,242,242,0.6) ;
+    margin:5px;
+    
+}
+  
+.top-nav a:hover {
+    background-color: black;
+    color: hwb(0 95% 5%);
+}
+.top-nav a[href="feedback.html"]{
+    float: right;
+    background-color: rgba(11, 88, 11, 0.838);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: serif;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2.5px 3px 5px grey;
+}
+.container2{
+    background-color:rgb(242, 242, 242);
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 0;
+    margin:10px;
+    display: grid;
+    align-items:auto; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    word-spacing: normal;
+}
+.container2 p{
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 1.2;
+    
+}    
+.container2 img{
+    margin: 20px;
+    padding: 20px;
+    height: 70%;
+    width: 70%;
+    position: right;
+}
+.container3{
+    background-color: #e8e7e7;
+    min-height: 400px;
+    margin:10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column img{
+    width:90%;
+    height: 100%;
+    margin: 20px;
+    padding: 10px;
+}
+.column h2{
+    padding-left: 30px;
+}
+.column p{
+    padding:20px;
+    font-size: 20px;
+    line-height: 1.3;
+}
+.column a:visited{
+    color: rgba(11, 88, 11, 0.838);
+}
+.column a:hover{
+    color:black;
+}
+.column a:active{
+    color:palegreen;
+}
