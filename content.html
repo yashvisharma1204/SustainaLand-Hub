@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contents</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="content.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="top-nav">
+                <a href="indec.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="content.html">Content</a>
+                <a href="feedback.html" style="float: center;">Feedback</a>
+            </div>
+        </div>
+        <button class="tablink" onclick="openPage('Home', this, 'white')">Land resources</button>
+        <button class="tablink" onclick="openPage('News', this, 'white')">Sustainable Agriculture</button>
+        <button class="tablink" onclick="openPage('Contact', this, 'white')">Land Areas</button>
+        <div id="Home" class="tabcontent">
+            <div class=" container1">
+                <img src="sa.png">
+                <p>Our website acts as a knowledge repository, unraveling the complexities of land resources. By offering insightful articles and interactive tools, we empower users to comprehend the vital role land plays in our lives. From ecological importance to sustainable utilization, we provide essential information, fostering a deeper appreciation for the diverse landscapes that shape our world.<br><a href="sm.html" style="text-decoration: none;"><button class="button"><span>Learn More </span></button></a></p>
+            </div>
+        </div>
+        <div id="News" class="tabcontent">
+            <div class=" container1">
+                <img src="sm.png">
+                <p>Our website serves as a beacon for sustainable agriculture, offering essential knowledge for eco-conscious farming practices. Through informative articles and expert insights, we empower farmers and enthusiasts to embrace techniques that promote environmental health and food security. From organic farming methods to water-efficient practices, we provide valuable resources, nurturing a community committed to sustainable agriculture.<br><a href="sa.html" style="text-decoration: none;"><button class="button"><span>Learn More </span></button></a></p>
+            </div>
+        </div>
+        <div id="Contact" class="tabcontent">
+            <div class= " container1">
+                <img src="lr.jpg">
+                <p>Our website is a hub of inspiration, showcasing sustainable land practices from across the globe in a concise and accessible format. By highlighting innovative initiatives in agriculture, reforestation, and conservation, our platform offers a snapshot of the world's successful sustainability efforts. <br><a href="sa.html" style="text-decoration: none;"><button class="button"><span>Learn More </span></button></a></p>
+            </div>
+        </div>
+        <script>
+            function openPage(pageName,elmnt,color) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablink");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+              }
+              document.getElementById(pageName).style.display = "block";
+              elmnt.style.backgroundColor = color;
+            }
+            
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+            </script>
+    </body>
+</html>
