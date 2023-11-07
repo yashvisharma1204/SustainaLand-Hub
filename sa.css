@@ -120,3 +120,8 @@ body{
 .column a:active{
     color:palegreen;
 }
+footer{
+    padding: 10px;
+    background-color: rgba(11, 88, 11, 0.838);
+    color:white;
+}
