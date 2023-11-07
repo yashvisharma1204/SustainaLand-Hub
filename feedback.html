@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;background-image: url(v2osk-1Z2niiBPg5A-unsplash.jpg); background-position: cover;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgba(11,88,11,0.838);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(11,88,11,0.838);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
+}
+body{
+    background-color: rgb(244, 244, 244);
+    font-family: serif;
+    margin:0;
+    padding:0;
+}
+
+.top-nav{
+    overflow: hidden;
+    background-color: transparent;
+    font-weight: bold;
+}
+.top-nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: rgba(242,242,242,0.6) ;
+    margin:5px;
+    
+}
+  
+.top-nav a:hover {
+    background-color: black;
+    color: hwb(0 95% 5%);
+}
+.top-nav a[href="feedback.html"]{
+    float: right;
+    background-color: rgba(11, 88, 11, 0.838);
+}
+</style>
+</head>
+<body>
+    <div class="top-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="content.html">Content</a>
+        <a href="feedback.html" style="float: center;">Feedback</a>
+    </div>
+
+<h1 style="margin:20px; padding: 10px;">Feedback Form</h1>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
