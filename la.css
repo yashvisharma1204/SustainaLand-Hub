@@ -1,0 +1,82 @@
+body{
+    margin:0px;
+    font-family: serif;
+    background-color: white;
+}
+.container1{
+    position: absolute;
+    background-image: url(land.jpg) ;
+    background-size:cover;
+    margin: 0px;
+    width: 100%;
+    height:700px;
+}
+.image{
+    background-image: url("qingbao-meng-01_igFr7hd4-unsplash.jpg");
+    background-color: center;
+    background-position: cover;
+    position: relative;
+    min-height: 700px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: serif;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2.5px 3px 5px rgb(195, 195, 195);
+}
+.top-nav{
+    overflow: hidden;
+    background-color: transparent;
+    font-weight: bold;
+    margin: 10px;
+}
+.top-nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.top-nav a:hover {
+    background-color: rgba(11, 88, 11, 0.838);
+    color: #f2f2f2;
+}
+.top-nav a[href="feedback.html"]{
+    float: right;
+    background-color: black;
+    color: white;
+}
+.container2{
+    padding: 10px;
+    margin:10px;
+    display: grid;
+    align-items:auto; 
+    grid-template-columns: 2fr 1fr;
+    column-gap: 0px;
+}
+.container2 p{
+    padding: 20px;
+    margin: 0px;
+    font-size: 20px;
+    color:black;
+}    
+.container2 img{
+    margin: 20px;
+    padding: 20px;
+    height: 80%;
+    width: 80%;
+}
+footer{
+    padding: 10px;
+    color:black;
+    text-align: right;
+}
+
+
+
