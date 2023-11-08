@@ -130,3 +130,10 @@ footer{
     color:black;
     
 }
+@media screen and (max-width: 768px) {
+    .gift-category, .gift-list {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+}
