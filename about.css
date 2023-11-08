@@ -62,7 +62,7 @@ footer{
     color:black;
 }
 @media screen and (max-width: 768px) {
-    .gift-category, .gift-list {
+    .container1, .about-section {
         width: 100%;
         float: none;
         margin-right: 0;
