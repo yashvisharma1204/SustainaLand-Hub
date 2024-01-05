@@ -51,4 +51,4 @@ If you'd like to contribute to this project, please follow these guidelines:
 
 Gratitude to our CHE110 instructors for providing a platform to apply our environmental science knowledge. Special thanks to Roshan and Ojeshwi for their dedicated collaboration in bringing this project to life.
 
-Join us in the journey towards sustainable land practices! Explore the website at [Insert Website URL]. 🌎✨
+Join us in the journey towards sustainable land practices! Explore the website at https://yashvisharma1204.github.io/SustainaLand-Hub_website/ . 🌎✨
