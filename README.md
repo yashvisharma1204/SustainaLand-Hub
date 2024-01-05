@@ -21,7 +21,34 @@ Welcome to the Sustainable Land Practices Showcase repository! This project, dev
 ├── pages               # Individual HTML pages for different sections
 ├── index.html          # Main landing page
 ├── about.html          # About page
-├── sa.html, sm.html, la.html and content.html       # Project showcase pages
-├── feedback.html       # Contact information
+├── projects.html       # Project showcase page
+├── contact.html        # Contact information
 ├── README.md           # Project documentation
 └── ...                 # Any other relevant files or folders
+```
+
+## Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/sustainable-land-practices.git
+```
+
+2. Open the `index.html` file in your browser to explore the main landing page.
+
+3. Navigate to different sections by opening respective HTML files (e.g., `about.html`, `projects.html`).
+
+## Contribution Guidelines
+
+If you'd like to contribute to this project, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and submit a pull request.
+
+## Acknowledgments
+
+Gratitude to our CHE110 instructors for providing a platform to apply our environmental science knowledge. Special thanks to Roshan and Ojeshwi for their dedicated collaboration in bringing this project to life.
+
+Join us in the journey towards sustainable land practices! Explore the website at [Insert Website URL]. 🌎✨
