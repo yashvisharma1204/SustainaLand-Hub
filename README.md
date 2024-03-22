@@ -1,4 +1,5 @@
 # Sustainable Land Practices Showcase 🌿
+![image](https://github.com/yashvisharma1204/SustainaLand-Hub_website/assets/137611141/d1077c90-d614-462a-8e54-4f5d341f4e5b)
 
 ## Overview
 
